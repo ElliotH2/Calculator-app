@@ -3,7 +3,7 @@ A simple, browser-based calculator built with HTML, CSS, and JavaScript.
 Supports basic arithmetic operations, percentages, square root, sign toggle, 
 trigonometric/logarithmic functions, and a calculation history panel
 
-![Calculator Screenshot](assets/Calculator_Screenshot.png)
+<img src="assets/Calculator_Screenshot.png" alt="Calculator Screenshot" width="400">
 
 
 ## ✨Features
