@@ -3,6 +3,9 @@ A simple, browser-based calculator built with HTML, CSS, and JavaScript.
 Supports basic arithmetic operations, percentages, square root, sign toggle, 
 trigonometric/logarithmic functions, and a calculation history panel
 
+![Calculator Screenshot](assets/screenshot.png)
+
+
 ## ✨Features
 - Responsive clean UI
 - Keyboard support for numbers and operators
@@ -24,4 +27,4 @@ cd Calculator-app
 - Javascript (Vanilla)
 
 ## 📜 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
+This project is licensed under the MIT License 
