@@ -91,6 +91,11 @@ button {
   margin: 0;
 }
 
+button:hover {
+    filter: brightness(1.5);
+    border: 3px solid #000000;
+}
+
 .button-number-layout{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

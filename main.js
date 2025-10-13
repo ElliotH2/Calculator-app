@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //helper functions
     function displayText(text) {
+        if (text === "X") text = "x";
         display.value += text;
     }
     function setDisplay(value) {
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     function getExpression() {
-        return display.value.replace(/X/g, '*');
+        return display.value.replace(/x/g, '*');
     }
     function safeEvaluate(expression) {
     try {
@@ -147,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const key = event.key;
         errorReset();
         if (validKeys.includes(key)) {
-            display.value += (key === '*') ? 'X' : key;
+            display.value += (key === '*') ? 'x' : key;
         } else if (key === "Enter" || key === "=") {
             event.preventDefault();
             handleOperator("=");
